@@ -155,3 +155,18 @@ input[type=number] {
 
 
 /* -------------------------------------------------- */
+
+
+/* responsive */
+
+body {
+    flex-direction: column;
+    /* padding: 1rem; */
+}
+
+.conteiner-feedback,
+.pomodoro-conteiner,
+.conteiner-task {
+    width: 350px;
+    margin-top: 1rem;
+}
