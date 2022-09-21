@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+* {
+    box-sizing: border-box;
+    color: #036060;
+    font-family: 'Bungee Spice', cursive;
+}
+
+body {
+    background-color: #2AB3B3;
+    display: flex;
+    align-items: flex-start;
+}
+
+.conteiner-feedback {
+    width: 500px;
+    height: 300px;
+    background-color: #036060;
+    border-radius: 1rem;
+    padding: 20px 0 20px 0;
+    box-shadow: 1rem 1rem 1rem 0 #1B6B6B;
+    margin: 3rem auto;
+    text-align: center;
+}
+
+.ocultar {
+    display: none;
+}
+
+#progressStatus {
+    width: 80%;
+    background-color: #088787;
+    margin: 2rem auto;
+    border-radius: 1rem;
+    padding: 3px;
+}
+
+#progressBar {
+    width: 0%;
+    height: 35px;
+    background-color: #42B3B3;
+    border-radius: 1rem;
+}
+
+.porcentaje {
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 80%;
+    margin: auto;
+}
+
+.conteiner-task {
+    width: 500px;
+    height: 200px;
+    background-color: #036060;
+    border-radius: 1rem;
+    padding: 20px 0 20px 0;
+    box-shadow: 1rem 1rem 1rem 0 #1B6B6B;
+    margin: 3rem auto;
+    text-align: center;
+}
+
+.pomodoro-conteiner {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: #036060;
+    margin: 3rem auto;
+    border-radius: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 20px 0;
+    box-shadow: 1rem 1rem 1rem 0 #1B6B6B;
+}
+
+.conteiner-ciclos {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.foto-tomate {
+    width: 4rem;
+    height: 3.5rem;
+    display: inline;
+}
+
+#input-ciclos {
+    width: 30%;
+    border: none;
+    background-color: transparent;
+    font-size: 2.5rem;
+}
+
+.conteiner-reloj {
+    margin-top: -2rem;
+}
+
+.reloj {
+    font-size: 6rem;
+    margin: 0%;
+}
+
+.conteiner-settings {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputs-conteiner {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.input-settings {
+    width: 25%;
+    display: block;
+    margin: auto;
+    border: none;
+    background-color: transparent;
+    font-size: 2rem;
+}
+
+.conteiner-start {
+    width: 40%;
+}
+
+#btn-start {
+    background-color: #088787;
+    border: none;
+    width: 100%;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+#btn-start:hover {
+    background-color: #42B3B3;
+}
+
+
+/* para quitar los botones de los inputs numéricos */
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+
+/* -------------------------------------------------- */

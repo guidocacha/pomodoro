@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- <css mio -->
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>Pomodoro</title>
+</head>
+
+<body>
+
+    <div class="conteiner-feedback">
+        <h2 class="feedback">¿Cómo comenzar?</h2>
+        <p class="tutorial">Podés editar todos los parámetros del pomodoro timer, agregá tareas y dale click a "START". <br> ¿No sabés lo que es un pomodoro timer? Leé <a href="https://protecciondatos-lopd.com/empresas/tecnica-pomodoro/" target="_blank">este artículo</a>.</p>
+        <!-- barra de progreso -->
+        <div id="progressStatus" class="ocultar">
+            <div id="progressBar"></div>
+        </div>
+        <p class="porcentaje"></p>
+    </div>
+
+    <div class="pomodoro-conteiner">
+        <div class="conteiner-ciclos">
+            <label for="input-ciclos"><img class="foto-tomate" src="/img/tomate.png" alt="tomate"> </label>
+            <input id="input-ciclos" type="number" value="1">
+        </div>
+        <div class="conteiner-reloj">
+            <h2 class="reloj">25:00</h2>
+        </div>
+        <div class="conteiner-settings">
+            <div class="inputs-conteiner">
+                <label for="input-worktime">Work time</label>
+                <input id="input-worktime" class="input-settings" type="number" value="25">
+            </div>
+            <div class="inputs-conteiner">
+                <label for="input-shortbreak">Short break</label>
+                <input id="input-shortbreak" class="input-settings" type="number" value="5">
+            </div>
+            <div class="inputs-conteiner">
+                <label for="input-longbreak">Long break</label>
+                <input id="input-longbreak" class="input-settings" type="number" value="15">
+            </div>
+        </div>
+        <div class="conteiner-start">
+            <button id="btn-start">START</button>
+        </div>
+    </div>
+
+    <div class="conteiner-task">
+        <h2 class="titulo-task">TAREAS</h2>
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
